@@ -18,10 +18,10 @@ public class Hooks {
 		driver = new ChromeDriver();
 	}
 
-//	@After
-//	public void TearDown()	
-//	
-//	{
-//		driver.close();
-//	}
+	@After
+	public void TearDown()	
+	
+	{
+		driver.close();
+	}
 }

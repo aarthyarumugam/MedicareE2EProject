@@ -1,4 +1,4 @@
-Feature: Login Feature
+Feature: UserPayment Feature
 
   Background: 
     Given I have launched the medicare application

@@ -63,7 +63,7 @@ public class DBVerification {
         ResultSet result = stm.executeQuery("select * from order_detail");
         while(result.next()) {
     		System.out.println(result.getInt("id"));
-    		System.out.println(result.getString("name"));
+    		System.out.println(result.getString("order_date"));
             }
 	}
 	}
